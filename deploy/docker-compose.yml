@@ -1,0 +1,16 @@
+version: '3.7'
+services:
+  api:
+    image: "gonzalocozzi/palantir-api-amd64"
+    volumes: 
+      - "./:/app/Properties/"
+    ports:
+      - "5000:80"
+  web:
+    image: "gonzalocozzi/palantir-web-amd64"
+    volumes: 
+      - "./:/usr/share/nginx/html/config/"
+    ports:
+      - "8080:80"
+    depends_on:
+      - "api"

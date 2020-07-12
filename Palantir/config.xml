@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/Palantir" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="diECkkb7Za.Palantir" package="diECkkb7Za" required_version="3.0"/>
+    <author email="gonzalocozzi@outlook.com">Gonzalo Alejandro Cozzi</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="palantir.png"/>
+    <license href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License v3.0</license>
+    <name>Palantir</name>
+    <tizen:profile name="tv"/>
+</widget>
